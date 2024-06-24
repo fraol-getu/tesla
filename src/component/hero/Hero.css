@@ -1,0 +1,6 @@
+.zebra{
+    background-image: url('../.././asset/image/zebra.jpg');
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
