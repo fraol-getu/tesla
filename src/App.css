@@ -7,7 +7,14 @@
   --primary : #000000;
   --gray : #B4B4B4;
   --whitegray: #F1F1F1;
-  --darkgray: #45474B;
+  --darkgray: #45474b56;
+  --lealagray: #45474b;
+  --green: #ECB159;
+  --black : #191D23;
+  --white: #FEFBF6;
+  --secondary: #fefbf681;
+  --grey :   #F0EBE3;
+  --blackgrey: #45474B;
 }
 body {
   padding: 0;

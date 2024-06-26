@@ -63,13 +63,13 @@ const Header = () => {
   
   return (
     <section className="header-wrapper relative p-0">
-      <div className="header-container flex justify-between  p-8  py-12  overflow-x-hidden">
+      <div className="header-container flex justify-between  p-20  py-16 overflow-x-hidden">
         <div className="header-left w-[100%]">
           <img src={Logo} alt="logo" width={90} className="p-0 m-0" />
         </div>
         <div
           style={GetMenuStyle(menuOpen, clientWidth)}
-          className="header-menu absolute hover:cursor-pointer flex right-0 md:right-10 md:flex-row flex-col ml-[50%] md:ml-0 md:p-5 md:bg-transparent align-middle gap-6 bg-[--whitegray]  py-[5rem] p-[7rem] transition duration-300 ease-in-out" // Add transition for smooth animation
+          className="header-menu absolute gap-8 hover:cursor-pointer flex right-0 md:text-[1.4rem] md:right-10 md:flex-row flex-col ml-[50%] md:ml-0 md:p-5 md:bg-transparent align-middle  bg-[--whitegray]  py-[5rem] p-[7rem] transition duration-300 ease-in-out" // Add transition for smooth animation
         >
           <h6>Home</h6>
           <h6>Shop</h6>
